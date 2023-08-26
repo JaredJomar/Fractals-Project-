@@ -1,5 +1,5 @@
 # Project_07
-# Fractals Project README
+# Fractals Project 
 
 ## Objective
 
@@ -42,4 +42,3 @@ In this project, you will work on the Fractals application, which involves drawi
 - **Refactor Fractals**: Move each of the `drawMode#()` methods in `ofApp` into a subclass of `AbstractFractal` class. Use a polymorphic vector to store pointers to `Fractal` objects. Allow users to draw the fractal at a specific position (index) in the vector by pressing a number key. Display the name of the active fractal at the top-left corner of the screen.
 - **New Fractal**: Create a new `Fractal` of your own design, which can use multiple shapes and be as complex as desired. Ensure that the fractal implements the same pattern at each level of recursion. Implement this new fractal using recursion.
 - **Animation**: Add an animation feature to the application. When users press the space bar, set the recursion depth to 1 and activate the animation. Gradually increase the recursion depth every few frames to create an animation of the current fractal growing slowly. The fractal should reach a certain level in recursion and then reset to 1. Users can cancel the animation by pressing the space bar again.
-
